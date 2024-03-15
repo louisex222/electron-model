@@ -33,3 +33,4 @@ pnpm-debug.log*
 # !.yarn/cache
 
 public/config.json
+out/

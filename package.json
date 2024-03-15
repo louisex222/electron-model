@@ -1,6 +1,6 @@
 {
   "name": "electron",
-  "version": "1",
+  "version": "2.0.0",
   "description": "test",
   "main": "main.js",
   "repository": "123",
@@ -8,9 +8,22 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "electron ."
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "@electron-forge/plugin-fuses": "^7.3.0",
+    "@electron/fuses": "^1.7.0",
     "electron": "^29.1.2"
+  },
+  "dependencies": {
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "electron-squirrel-startup": "^1.0.0"
   }
 }
