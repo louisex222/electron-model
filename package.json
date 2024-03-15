@@ -1,0 +1,16 @@
+{
+  "name": "electron",
+  "version": "1",
+  "description": "test",
+  "main": "main.js",
+  "repository": "123",
+  "author": "santino",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^29.1.2"
+  }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>你好!</title>
+</head>
+
+<body>
+    <h1>你好!</h1>
+    我们正在使用 Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    和 Electron <span id="electron-version"></span>.
+    <p>👋</p>
+    <p id="info"></p>
+    <button id="ping">0</button>
+</body>
+<script  src="renderer.js"></script>
+</html>
